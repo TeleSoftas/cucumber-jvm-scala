@@ -11,23 +11,20 @@ See also the [CHANGELOG](https://github.com/cucumber/cucumber-jvm/blob/master/CH
 
 ### Added
 
-- [Scala] `Scenario.log(String)` & `Scenario.attach(byte[], String, String)` ([#42](https://github.com/cucumber/cucumber-jvm-scala/pull/42) Gaël Jourdan-Weil)
-- [Doc] Added Javadoc on `ScalaDsl` methods ([#53](https://github.com/cucumber/cucumber-jvm-scala/issues/53) Gaël Jourdan-Weil)
+- [Scala] Add `attach(String, String, String)` in `Scenario` (Gaël Jourdan-Weil)
 
 ### Changed
 
-- [Core] Update `cucumber-core` dependency to 5.7.0 ([#42](https://github.com/cucumber/cucumber-jvm-scala/pull/42) Gaël Jourdan-Weil)
-- [Build] Update Scala versions to 2.13.2 ([#23](https://github.com/cucumber/cucumber-jvm-scala/issues/43) Gaël Jourdan-Weil)
+- [Core] Update `cucumber-core` dependency to 6.0.0 (Gaël Jourdan-Weil)
 
 ### Deprecated
 
-- [Scala] `Scenario.write(String)` & `Scenario.embed(byte[], String, String)` ([#42](https://github.com/cucumber/cucumber-jvm-scala/pull/42) Gaël Jourdan-Weil)
-
 ### Removed
+
+- [Scala] Remove deprecated methods in `Scenario` (Gaël Jourdan-Weil)
 
 ### Fixed
 
-- [Build] Remove build warnings ([#45](https://github.com/cucumber/cucumber-jvm-scala/issues/45) Gaël Jourdan-Weil)
 
 ## [5.6.0] (2020-05-03)
 
